@@ -18,9 +18,10 @@
   <filter>
     <whitelist>
       <directory>./src</directory>
-    </whitelist>
-    <blacklist>
       <directory>./tests</directory>
-    </blacklist>
+    </whitelist>
+    <!--<blacklist>
+      <directory>./tests</directory>
+    </blacklist>-->
   </filter>
 </phpunit>
